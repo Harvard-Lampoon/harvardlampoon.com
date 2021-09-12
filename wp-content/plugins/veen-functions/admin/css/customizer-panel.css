@@ -1,0 +1,64 @@
+
+
+/* CSF Fields */
+
+.csf-field-switcher .csf--switcher{
+    margin-top: -3px;
+    background-color: #7F7F7F;
+}
+.csf-field-switcher .csf--active{
+    background-color: #0d99d5;
+}
+
+.csf-field-code_editor .CodeMirror{
+    height: 250px;
+}
+
+.csf-field-slider .ui-slider{
+    order: 1;
+    margin-left: 15px;
+    height: 6px;    
+}
+.csf-field-slider .ui-slider-handle{ background: #0085ba; top: -6px; border-radius: 50%; }
+.csf-field-slider .ui-slider-range{ background: #0d99d5; height: 6px; border-radius: 6px; }
+.csf-field-slider input[type=number]{ margin-left: 0; }
+
+.csf-field .chosen-container-single .chosen-single{
+    background: #fff;
+    box-shadow: none;
+}
+.csf-field .chosen-container .chosen-results li.highlighted{
+    background: #0d99d5;
+}
+
+.csf-field-number .csf-text-desc{
+    /* margin-top: -10px; */
+}
+
+
+/* CSF Layout */
+
+.control-section .csf-field{
+    padding-bottom: 15px;
+    border-bottom: 1px solid #ddd;
+}
+.control-section .csf-field .csf-title{
+    margin-bottom: 10px;    
+}
+.control-section .csf-field .csf-title h4{
+    line-height: 1.4;
+    font-size: 14px;
+}
+.csf-field-heading .csf-title, .csf-field-subheading .csf-title{ width: auto; }
+.csf-text-subtitle, .csf-subtitle-text{ color: #656565; }
+.csf-text-desc, .csf-desc-text{
+    margin-top: 5px;
+    font-style: italic;
+    color: #888;
+    line-height: 1.5;
+}
+
+.csf-field .fas, .csf-field .far, .csf-field .fab{
+    font-family: 'FontAwesome';
+    font-style: normal;
+}

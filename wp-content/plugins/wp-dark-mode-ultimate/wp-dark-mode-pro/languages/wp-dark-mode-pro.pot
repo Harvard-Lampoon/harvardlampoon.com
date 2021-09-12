@@ -1,0 +1,83 @@
+# Copyright (C) 2021 wp-dark-mode-pro
+# This file is distributed under the same license as the wp-dark-mode-pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: wp-dark-mode-pro\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: includes/base.php:3, plugin.php:16
+msgid "You can't access this page"
+msgstr ""
+
+#: includes/base.php:119
+msgid "Unsupported PHP version Min required PHP Version: \"%s\""
+msgstr ""
+
+#. translators: 1: Plugin name 2: WP Dark Mode 3: Elementor installation link
+#: includes/base.php:132
+msgid "%1$s requires %2$s to be installed and activated to function properly. %3$s"
+msgstr ""
+
+#: includes/base.php:133
+msgid "WP Dark Mode PRO"
+msgstr ""
+
+#: includes/base.php:134, includes/class-widget.php:24
+msgid "WP Dark Mode"
+msgstr ""
+
+#: includes/base.php:136
+msgid "Please click on this link and install WP Dark Mode"
+msgstr ""
+
+#: includes/base.php:196
+msgid "Settings"
+msgstr ""
+
+#: includes/base.php:203
+msgid "Activate License"
+msgstr ""
+
+#: includes/class-widget.php:21
+msgid "Display dark mode switcher button."
+msgstr ""
+
+#: includes/class-widget.php:63
+msgid "Title:"
+msgstr ""
+
+#: includes/class-widget.php:94
+msgid "Position Alignment:"
+msgstr ""
+
+#: includes/class-widget.php:98
+msgid "Left"
+msgstr ""
+
+#: includes/class-widget.php:101
+msgid "Center"
+msgstr ""
+
+#: includes/class-widget.php:104
+msgid "Right"
+msgstr ""
+
+#: includes/class-widget.php:107
+msgid "Choose the button alignment."
+msgstr ""
+
+#: includes/install-wp-dark-mode.php:416
+msgid "Are you sure?"
+msgstr ""
+
+#: includes/install-wp-dark-mode.php:417
+msgid "If you hide the recommended plugins page from your menu, it won't appear there again. Are you sure you'd like to do it?"
+msgstr ""

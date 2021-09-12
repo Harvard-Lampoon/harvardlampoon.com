@@ -1,0 +1,12 @@
+/* @group Page */
+
+#page{
+    #single{
+        .share-buttons{ margin-top: 0; }
+        &.fullcover{
+            #sidebar{ margin-top: $section-padding - 5px; }
+        }
+    }
+}
+
+/* @end */

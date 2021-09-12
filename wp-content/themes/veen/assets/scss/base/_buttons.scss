@@ -1,0 +1,94 @@
+@mixin button{
+    display: inline-block;
+	color: $white;
+	font-size: 16px;
+	padding: 5px 25px;
+	letter-spacing: 0.5px;
+    position: relative;
+    z-index: 2;
+    font-family: $title-font-family;
+    border-radius: 25px;
+    box-shadow: 0px 3px 6px rgba(#000, 0.3);
+    background-color: $main-color;
+    @include transition;
+	&:hover{
+        color: $white;
+        box-shadow: 0px 3px 6px rgba($main-color, 0.75);
+        transform: translateY(-2px);
+    }
+    &.secondary{
+        background-color: $secondary-color;
+        &:hover{
+            box-shadow: 0px 3px 6px rgba($secondary-color, 0.75);  
+        }
+    }
+    &.small{ font-size: 12px; padding: 5px 15px; }
+    &.medium{
+        font-size: 14px;
+        padding: 7px 25px;
+    }
+    &.large{ font-size: 20px; padding: 8px 40px; }
+    &.icon{
+        i{
+            vertical-align: middle;
+            position: relative;
+            top: -2px;
+        }
+    }
+    &.circle{
+        padding: 0;
+        width: 44px;
+        height: 44px;
+        border-radius: 50%;
+        text-align: center;
+        line-height: 44px;
+        font-size: 16px;
+        i.fa{ margin: 0; vertical-align: middle; }
+        &:hover{
+            transform: translateY(-2px);
+        }
+    }
+    // By Color
+	&.dark{
+        background-image: none;
+        background-color: $black;
+        box-shadow: none;
+	}
+	&.dark:hover{
+		color: #fff;
+		background-color: lighten($black, 5%);
+	}
+	& i.fa{ font-size: 85%; margin-left: 5px; }
+}
+
+.button, .epcl-button:not(.epcl-shortcode){
+    @include button;
+}
+
+/* Global Tags */
+
+div.tags{
+    display: block;
+    // font-weight: 500;
+    font-size: 15px;
+    font-family: $title-font-family;
+    a{
+        color: $black;
+        &:hover{
+            color: $main-color;
+        }
+    }
+    i, svg{
+        display: inline-block;
+        color: $main-color;
+        font-size: 20px;
+        vertical-align: middle;
+        margin-top: -3px;
+        margin-right: 3px;
+        width: 20px;
+        height: 20px;
+    }
+    span:first-of-type{ display: none; }
+}
+
+/* @end */

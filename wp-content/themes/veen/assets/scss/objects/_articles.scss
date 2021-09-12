@@ -1,0 +1,293 @@
+
+/* @group Global Articles List */
+
+time:not(.icon){
+    position: relative;
+    padding-left: 20px;
+    color: $meta-color;
+    &:before{
+        content: '';
+        width: 4px;
+        height: 4px;
+        background-color: $main-color;
+        position: absolute;
+        left: 0px;
+        top: 50%;
+        margin-top: -3px;
+        border-radius: 50%;
+        @include transition;
+    }
+    &.small{
+        font-size: 12px;
+        line-height: 1;
+        padding-left: 12px;
+        &:before{
+            width: 4px;
+            height: 4px;
+            margin-top: -2px;
+        }
+    }
+}
+time.icon{
+    svg{
+        margin-right: 2px;
+        margin-top: -2px;
+    }
+}
+
+// Articles loop
+div.articles{
+	article{
+        padding-bottom: $section-padding;
+        max-width: $grid-medium;
+        margin: 0 auto;
+        text-align: center;
+        &:last-of-type{
+            padding-bottom: 0;
+        }
+        header{
+            position: relative;
+            z-index: 1;
+        }
+        .post-format-wrapper{
+            margin-bottom: 30px;
+            &:hover{
+                .continue-reading{
+                    opacity: 1;
+                    right: 30px;
+                }
+            }
+        }
+        .continue-reading{
+            position: absolute;
+            right: 0px;
+            bottom: 40px;
+            z-index: 3;
+            opacity: 0;
+            @include transition(700ms);
+        }
+        .post-title{
+            position: absolute;
+            left: 40px;
+            bottom: 45px;
+            z-index: 3;
+            margin: 0;
+            padding: 15px 30px;
+            padding: 0;
+            max-width: 55%;
+            text-align: left;
+            a{
+                display: inline;
+                border-width: 14px;
+            }
+        }
+        .main-title{
+            margin-bottom: 25px;
+        }
+        a.thumb{ display: block; min-height: 440px; }
+        div.post-excerpt{ 
+            margin: $element-padding 0;
+        }
+    }
+
+    // Posts Formats
+    .post-format-wrapper{ 
+        position: relative;
+        z-index: 2;
+        padding: 0;
+        box-shadow: 0 3px 12px -1px rgba(7,10,25,.2), 0 22px 27px -20px rgba(7,10,25,.2);
+        &.hidden{ display: none; }
+    }
+    .post-format-gallery, .post-format-video, .post-format-audio{
+        position: relative;
+        z-index: 2;
+        overflow: hidden;
+        height: 440px;
+        iframe{
+            height: 100%;
+        }
+        div.item{ height: 440px; position: relative; }
+    }
+    .post-format-audio{
+        height: 300px;
+    }
+
+    // Only Classic
+    &.classic{
+        // article º.absolute .min-read{ display: none; }
+    }
+
+    // Grid Articles
+
+    &.grid-posts{
+        article{
+            a.thumb{
+                 min-height: 400px;
+            }
+            .post-title{
+                max-width: none;
+                left: 30px;
+                right: 30px;
+                bottom: 35px;
+                font-size: 24px;
+                a{
+                    border-width: 10px;
+                }
+            }
+        }
+        .post-format-gallery, .post-format-video, .post-format-audio{
+            height: 400px;
+            div.item{ height: 400px; }
+        }
+    }
+    
+}
+
+/* Global Meta data */
+
+div.meta{
+    color: $meta-color;
+    font-weight: 600;
+    font-family: $title-font-family;
+    a{
+        color: $meta-color;
+        &:hover{ color: $main-color; }
+    }
+    &.absolute{
+        position: absolute;
+        right: 20px;
+        top: 25px;
+        z-index: 10;
+        background-color: $secondary-color;
+        border-radius: 25px;
+        padding: 3px 10px;        
+        .meta-info{
+            color: $white;
+            font-size: 13px;
+            margin: 0 3px;
+            text-shadow: 0px 2px 5px rgba(0, 0, 0, .15);
+            svg, i{
+                width: 15px;
+                height: 15px;
+                fill: $white;
+                vertical-align: middle;
+                margin-top: -3px;
+            }
+        }
+    }
+    .min-read{
+        display: inline-block;
+        cursor: default;
+        span{
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border-radius: 50%;
+            color: $white;
+            background-color: $secondary-color;
+            text-align: center;
+            line-height: 21px;
+            font-size: 13px;
+            vertical-align: middle;
+            margin-top: -4px;
+            overflow: hidden;
+        }
+    }
+    .views-counter{
+        cursor: default;
+    }
+    .meta-info{
+        margin-right: 12px;
+        font-size: 15px;
+    }
+    .author{
+        .author-image{
+            width: 35px;
+            height: 35px;
+            position: relative;
+            left: auto;
+            top: -1px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-right: 7px;
+            border-radius: 50%;
+            box-shadow: 2px 2px 5px 1px rgba(#000, .2);
+            &.small{
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+    .sticky-icon{
+        margin-left: 8px;
+        margin-top: -7px;
+        vertical-align: middle;
+        display: inline-block;
+    }
+}
+
+/* @end */
+
+/* @group Global Pagination */
+
+.epcl-pagination{
+    text-align: center;
+    padding: 30px 0;
+    #single &{
+        div.nav{
+            > span.current{
+                vertical-align: middle;
+                font-family: $title-font-family;
+                background: $secondary-color;
+                font-weight: bold;
+                cursor: default;
+                //padding: 0 20px;
+                color: $white;
+                border-radius: $border-radius;
+            }
+            .page-number{
+                background: none;
+                font-weight: bold;
+                vertical-align: middle;
+                font-size: 17px;
+            }
+            .post-page-numbers{
+                width: 35px;
+                height: 35px;
+                padding: 0;
+                line-height: 35px;
+            }
+        }
+    }
+    div.nav{ 
+        display: inline-block;
+        > span{
+            display: inline-block;
+            margin: 0 10px;
+            height: 36px;
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 36px;
+            padding: 0 15px;
+        }
+        a{
+            @include button;
+            vertical-align: top;
+            display: inline-block;
+            padding: 0 20px;
+            height: 36px;
+            line-height: 36px;
+            span{ padding: 0; margin: 0; }
+        }
+    }
+    &.link-pages{
+        div.nav{
+            a, > span{
+                margin: 0 5px 5px;
+                
+            }
+        }
+    }
+}
+
+/* @end */

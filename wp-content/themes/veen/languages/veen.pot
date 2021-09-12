@@ -1,0 +1,874 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Veen\n"
+"POT-Creation-Date: 2020-08-20 20:26-0400\n"
+"PO-Revision-Date: 2019-06-14 14:44-0400\n"
+"Last-Translator: \n"
+"Language-Team: Estudio Patagon\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.3\n"
+"X-Poedit-Basepath: ../../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Language: en\n"
+"X-Poedit-KeywordsList: _n:1,2;_x:1,2c;__;_e;esc_html__;esc_html_e;esc_attr__;esc_attr_e;esc_html_x:1,2c;esc_attr_x:1,2c\n"
+"X-Poedit-SearchPath-0: themes/veen\n"
+"X-Poedit-SearchPath-1: plugins/veen-functions/widgets\n"
+"X-Poedit-SearchPath-2: plugins/veen-functions/twitter_api\n"
+"X-Poedit-SearchPath-3: plugins/veen-functions/theme-functions\n"
+"X-Poedit-SearchPathExcluded-0: themes/veen/functions/plugins\n"
+"X-Poedit-SearchPathExcluded-1: themes/veen/assets\n"
+"X-Poedit-SearchPathExcluded-2: themes/veen/functions/merlin\n"
+
+#: plugins/veen-functions/theme-functions/render-ads.php:16
+#: plugins/veen-functions/theme-functions/render-ads.php:33
+#: plugins/veen-functions/theme-functions/render-ads.php:71
+msgid "Banner"
+msgstr ""
+
+#: plugins/veen-functions/theme-functions/social-buttons.php:13
+msgid "Views"
+msgstr ""
+
+#: plugins/veen-functions/theme-functions/social-buttons.php:17
+#, php-format
+msgid "%d Min Read"
+msgstr ""
+
+#: plugins/veen-functions/theme-functions/social-buttons.php:28
+#: themes/veen/partials/home-blocks/posts-slider.php:90
+msgid "Min Read"
+msgstr ""
+
+#: plugins/veen-functions/theme-functions/social-buttons.php:84
+msgid "Share Article:"
+msgstr ""
+
+#: plugins/veen-functions/theme-functions/social-buttons.php:89
+msgid "Copy Link"
+msgstr ""
+
+#: plugins/veen-functions/twitter_api/Creare_Twitter.php:57
+msgid "Less than 1 minute ago"
+msgstr ""
+
+#: plugins/veen-functions/twitter_api/Creare_Twitter.php:59
+#, php-format
+msgid "%s minute ago"
+msgstr ""
+
+#: plugins/veen-functions/twitter_api/Creare_Twitter.php:61
+#, php-format
+msgid "%s minutes ago"
+msgstr ""
+
+#: plugins/veen-functions/twitter_api/Creare_Twitter.php:65
+#, php-format
+msgid "%s hour ago"
+msgstr ""
+
+#: plugins/veen-functions/twitter_api/Creare_Twitter.php:67
+#, php-format
+msgid "%s hours ago"
+msgstr ""
+
+#: plugins/veen-functions/twitter_api/Creare_Twitter.php:71
+#, php-format
+msgid "%s day ago"
+msgstr ""
+
+#: plugins/veen-functions/twitter_api/Creare_Twitter.php:73
+#, php-format
+msgid "%s days ago"
+msgstr ""
+
+#: plugins/veen-functions/widgets/about.php:6
+msgctxt "admin"
+msgid "Display about author section."
+msgstr ""
+
+#: plugins/veen-functions/widgets/about.php:7
+msgctxt "admin"
+msgid "(EP) About me"
+msgstr ""
+
+#: plugins/veen-functions/widgets/about.php:44 themes/veen/comments.php:93
+#: themes/veen/partials/author-box.php:49
+msgid "Website"
+msgstr ""
+
+#: plugins/veen-functions/widgets/about.php:47
+#: themes/veen/partials/author-box.php:52
+msgid "Follow me on Twitter"
+msgstr ""
+
+#: plugins/veen-functions/widgets/about.php:50
+#: themes/veen/partials/author-box.php:55
+msgid "Follow me on Facebook"
+msgstr ""
+
+#: plugins/veen-functions/widgets/about.php:81
+#: plugins/veen-functions/widgets/ads-125.php:52
+#: plugins/veen-functions/widgets/ads-fluid.php:45
+#: plugins/veen-functions/widgets/featured-category.php:59
+#: plugins/veen-functions/widgets/flickr.php:47
+#: plugins/veen-functions/widgets/gallery.php:75
+#: plugins/veen-functions/widgets/posts-thumbs.php:97
+#: plugins/veen-functions/widgets/related-articles.php:58
+#: plugins/veen-functions/widgets/social.php:134
+#: plugins/veen-functions/widgets/tag-cloud.php:73
+#: plugins/veen-functions/widgets/tweets.php:67
+#: plugins/veen-functions/widgets/video.php:53
+msgctxt "admin"
+msgid "Title:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/about.php:87
+msgctxt "admin"
+msgid "Author Position:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/about.php:92
+msgctxt "admin"
+msgid "Author:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/about.php:94
+msgctxt "admin"
+msgid "Select an author to display all his information. Remember to fill your profile (website, Twitter and Facebook.)"
+msgstr ""
+
+#: plugins/veen-functions/widgets/ads-125.php:7
+msgctxt "admin"
+msgid "Display 125x125 grid ads."
+msgstr ""
+
+#: plugins/veen-functions/widgets/ads-125.php:8
+msgctxt "admin"
+msgid "(EP) 125x125 Ads"
+msgstr ""
+
+#: plugins/veen-functions/widgets/ads-125.php:56
+msgctxt "admin"
+msgid "Copy and paste your ads code:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/ads-125.php:58
+msgctxt "admin"
+msgid "Ads Block n&ordm; 1:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/ads-125.php:62
+msgctxt "admin"
+msgid "Ads Block n&ordm; 2:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/ads-125.php:66
+msgctxt "admin"
+msgid "Ads Block n&ordm; 3:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/ads-125.php:70
+msgctxt "admin"
+msgid "Ads Block n&ordm; 4:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/ads-fluid.php:7
+msgctxt "admin"
+msgid "Display a fluid ads. Note: the max ads width is 300px and height is unlimited."
+msgstr ""
+
+#: plugins/veen-functions/widgets/ads-fluid.php:8
+msgctxt "admin"
+msgid "(EP) Fluid Ads"
+msgstr ""
+
+#: plugins/veen-functions/widgets/ads-fluid.php:50
+msgctxt "admin"
+msgid "Width of advertise to show:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/ads-fluid.php:53
+msgctxt "admin"
+msgid "Only integer values are allowed:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/ads-fluid.php:56
+msgctxt "admin"
+msgid "Align:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/ads-fluid.php:64
+msgctxt "admin"
+msgid "Ads Code:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/featured-category.php:6
+msgctxt "admin"
+msgid "Display posts from a certain category."
+msgstr ""
+
+#: plugins/veen-functions/widgets/featured-category.php:7
+msgctxt "admin"
+msgid "(EP) Posts by Category"
+msgstr ""
+
+#: plugins/veen-functions/widgets/featured-category.php:64
+#: plugins/veen-functions/widgets/posts-thumbs.php:102
+#: plugins/veen-functions/widgets/related-articles.php:63
+msgctxt "admin"
+msgid "Number of posts to show:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/featured-category.php:68
+msgctxt "admin"
+msgid "Category:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/flickr.php:6
+msgctxt "admin"
+msgid "Display recent photos from Flickr."
+msgstr ""
+
+#: plugins/veen-functions/widgets/flickr.php:7
+msgctxt "admin"
+msgid "(EP) Flickr Gallery"
+msgstr ""
+
+#: plugins/veen-functions/widgets/flickr.php:16
+msgctxt "admin"
+msgid "You must enter a valid Flickr id"
+msgstr ""
+
+#: plugins/veen-functions/widgets/flickr.php:20
+msgctxt "admin"
+msgid "Loading..."
+msgstr ""
+
+#: plugins/veen-functions/widgets/flickr.php:52
+msgctxt "admin"
+msgid "Number of photos to show:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/flickr.php:57
+msgctxt "admin"
+msgid "Flickr id:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/flickr.php:59
+msgctxt "admin"
+msgid "You can find your Flickr id on:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/gallery.php:7
+msgctxt "admin"
+msgid "Display custom photos in grid layout."
+msgstr ""
+
+#: plugins/veen-functions/widgets/gallery.php:8
+msgctxt "admin"
+msgid "(EP) Gallery"
+msgstr ""
+
+#: plugins/veen-functions/widgets/gallery.php:80
+msgctxt "admin"
+msgid "Galllery:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/gallery.php:95
+msgctxt "admin"
+msgid "Add Images"
+msgstr ""
+
+#: plugins/veen-functions/widgets/gallery.php:96
+msgctxt "admin"
+msgid "Edit Gallery"
+msgstr ""
+
+#: plugins/veen-functions/widgets/gallery.php:97
+msgctxt "admin"
+msgid "Clear"
+msgstr ""
+
+#: plugins/veen-functions/widgets/posts-thumbs.php:6
+msgctxt "admin"
+msgid "Display Random or Recent posts with a small image."
+msgstr ""
+
+#: plugins/veen-functions/widgets/posts-thumbs.php:7
+msgctxt "admin"
+msgid "(EP) Recent Posts with image"
+msgstr ""
+
+#: plugins/veen-functions/widgets/posts-thumbs.php:106
+msgctxt "admin"
+msgid "Mode:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/posts-thumbs.php:108
+msgctxt "admin"
+msgid "Recent Posts"
+msgstr ""
+
+#: plugins/veen-functions/widgets/posts-thumbs.php:109
+msgctxt "admin"
+msgid "Random Posts"
+msgstr ""
+
+#: plugins/veen-functions/widgets/posts-thumbs.php:111
+msgctxt "admin"
+msgid "Post views"
+msgstr ""
+
+#: plugins/veen-functions/widgets/posts-thumbs.php:116
+msgctxt "admin"
+msgid "Date:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/posts-thumbs.php:118
+msgctxt "admin"
+msgid "All Time"
+msgstr ""
+
+#: plugins/veen-functions/widgets/posts-thumbs.php:119
+msgctxt "admin"
+msgid "Past Year"
+msgstr ""
+
+#: plugins/veen-functions/widgets/posts-thumbs.php:120
+msgctxt "admin"
+msgid "Past Month"
+msgstr ""
+
+#: plugins/veen-functions/widgets/posts-thumbs.php:121
+msgctxt "admin"
+msgid "Past Week"
+msgstr ""
+
+#: plugins/veen-functions/widgets/related-articles.php:6
+msgctxt "admin"
+msgid "Display related articles from the current post."
+msgstr ""
+
+#: plugins/veen-functions/widgets/related-articles.php:7
+msgctxt "admin"
+msgid "(EP) Related Articles"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:6
+msgctxt "admin"
+msgid "Display your social profiles."
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:7
+msgctxt "admin"
+msgid "(EP) Social"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:37
+msgid "Twitter"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:37
+#: plugins/veen-functions/widgets/social.php:40
+#: plugins/veen-functions/widgets/social.php:67
+#: plugins/veen-functions/widgets/social.php:70
+#: plugins/veen-functions/widgets/social.php:76
+msgid "Follow me!"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:40
+msgid "Facebook"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:43
+msgid "Instagram"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:43
+msgid "Our photos!"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:46
+msgid "Linkedin"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:46
+#: plugins/veen-functions/widgets/social.php:55
+msgid "Visit me!"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:49
+msgid "Pinterest"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:49
+msgid "Pin it!"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:52
+msgid "Dribbble"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:52
+msgid "Our work!"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:55
+msgid "Tumblr"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:58
+msgid "Youtube"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:58
+#: plugins/veen-functions/widgets/social.php:64
+msgid "Check my videos!"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:61
+msgid "Flickr"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:61
+msgid "See more photos!"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:64
+msgid "Twitch"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:67
+msgid "VKontakte"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:70
+msgid "Telegram"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:73
+msgid "RSS"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:73
+msgid "Get our latest news!"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:76
+msgid "TikTok"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:83 themes/veen/comments.php:92
+msgid "Email"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:83
+msgid "Contact me!"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:138
+msgctxt "admin"
+msgid "Don't forget to fill your social profiles"
+msgstr ""
+
+#: plugins/veen-functions/widgets/social.php:138
+msgctxt "admin"
+msgid "here"
+msgstr ""
+
+#: plugins/veen-functions/widgets/tag-cloud.php:6
+msgctxt "admin"
+msgid "Display tags or categories with limit and special filters."
+msgstr ""
+
+#: plugins/veen-functions/widgets/tag-cloud.php:7
+msgctxt "admin"
+msgid "(EP) Tag Cloud"
+msgstr ""
+
+#: plugins/veen-functions/widgets/tag-cloud.php:78
+msgctxt "admin"
+msgid "Max number of elements to display:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/tag-cloud.php:82
+msgctxt "admin"
+msgid "Taxonomy (mode):"
+msgstr ""
+
+#: plugins/veen-functions/widgets/tag-cloud.php:84
+msgctxt "admin"
+msgid "Post Category"
+msgstr ""
+
+#: plugins/veen-functions/widgets/tag-cloud.php:85
+msgctxt "admin"
+msgid "Post Tags"
+msgstr ""
+
+#: plugins/veen-functions/widgets/tag-cloud.php:89
+msgctxt "admin"
+msgid "Order By:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/tag-cloud.php:91
+msgctxt "admin"
+msgid "Name"
+msgstr ""
+
+#: plugins/veen-functions/widgets/tag-cloud.php:92
+msgctxt "admin"
+msgid "Count"
+msgstr ""
+
+#: plugins/veen-functions/widgets/tag-cloud.php:96
+msgctxt "admin"
+msgid "Order:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/tag-cloud.php:98
+msgctxt "admin"
+msgid "Ascendant"
+msgstr ""
+
+#: plugins/veen-functions/widgets/tag-cloud.php:99
+msgctxt "admin"
+msgid "Descendant"
+msgstr ""
+
+#: plugins/veen-functions/widgets/tag-cloud.php:104
+msgctxt "admin"
+msgid "Show tag counts"
+msgstr ""
+
+#: plugins/veen-functions/widgets/tweets.php:6
+msgctxt "admin"
+msgid "Display recent tweets."
+msgstr ""
+
+#: plugins/veen-functions/widgets/tweets.php:7
+msgctxt "admin"
+msgid "(EP) Recent Tweets"
+msgstr ""
+
+#: plugins/veen-functions/widgets/tweets.php:72
+msgctxt "admin"
+msgid "Number of tweets to show:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/tweets.php:77
+msgctxt "admin"
+msgid "Twitter ID: (without @)"
+msgstr ""
+
+#: plugins/veen-functions/widgets/tweets.php:83
+msgid "Exclude Replies"
+msgstr ""
+
+#: plugins/veen-functions/widgets/video.php:6
+msgctxt "admin"
+msgid "Display a Youtube or Vimeo video."
+msgstr ""
+
+#: plugins/veen-functions/widgets/video.php:7
+msgctxt "admin"
+msgid "(EP) Video"
+msgstr ""
+
+#: plugins/veen-functions/widgets/video.php:58
+msgctxt "admin"
+msgid "Type:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/video.php:65
+msgctxt "admin"
+msgid "URL:"
+msgstr ""
+
+#: plugins/veen-functions/widgets/video.php:69
+msgctxt "admin"
+msgid "Height:"
+msgstr ""
+
+#: themes/veen/404.php:19 themes/veen/amp/404.php:11
+msgid "404"
+msgstr ""
+
+#: themes/veen/404.php:19 themes/veen/amp/404.php:11
+msgid "Page not found"
+msgstr ""
+
+#: themes/veen/404.php:22 themes/veen/amp/404.php:14
+#: themes/veen/partials/home-blocks/classic-posts-sidebar.php:68
+#: themes/veen/partials/home-blocks/classic-posts.php:68
+#: themes/veen/partials/home-blocks/grid-posts.php:89
+#: themes/veen/partials/home-blocks/grid-sidebar.php:66
+msgid "Something's wrong here..."
+msgstr ""
+
+#: themes/veen/404.php:23 themes/veen/amp/404.php:15
+msgid "We can't find the page you're looking."
+msgstr ""
+
+#: themes/veen/404.php:26 themes/veen/amp/404.php:18
+#: themes/veen/partials/home-blocks/classic-posts-sidebar.php:72
+#: themes/veen/partials/home-blocks/classic-posts.php:72
+#: themes/veen/partials/home-blocks/grid-posts.php:93
+#: themes/veen/partials/home-blocks/grid-sidebar.php:70
+msgid "Go back to home"
+msgstr ""
+
+#: themes/veen/amp/category.php:16 themes/veen/amp/tag.php:14
+#: themes/veen/category.php:13 themes/veen/tag.php:13
+#, php-format
+msgid "%1$s Article"
+msgid_plural "%1$s Articles"
+msgstr[0] ""
+msgstr[1] ""
+
+#: themes/veen/amp/page.php:57 themes/veen/amp/single.php:95
+#: themes/veen/page.php:57 themes/veen/single.php:98
+msgid "Edit this post"
+msgstr ""
+
+#: themes/veen/amp/page.php:75 themes/veen/amp/single.php:146
+#: themes/veen/page.php:80 themes/veen/single.php:155
+msgid "Pages"
+msgstr ""
+
+#: themes/veen/amp/page.php:81 themes/veen/amp/single.php:152
+#: themes/veen/functions/theme-functions.php:187 themes/veen/page.php:86
+#: themes/veen/single.php:161
+msgid "Next"
+msgstr ""
+
+#: themes/veen/amp/page.php:82 themes/veen/amp/single.php:153
+#: themes/veen/functions/theme-functions.php:182 themes/veen/page.php:87
+#: themes/veen/single.php:162
+msgid "Previous"
+msgstr ""
+
+#: themes/veen/amp/partials/header.php:155 themes/veen/partials/header.php:145
+#, php-format
+msgid "Press %s to close"
+msgstr ""
+
+#: themes/veen/amp/search.php:7 themes/veen/search.php:7
+msgid "Search results for:"
+msgstr ""
+
+#: themes/veen/amp/single.php:121 themes/veen/single.php:130
+msgid "Published in:"
+msgstr ""
+
+#: themes/veen/amp/single.php:139 themes/veen/single.php:148
+msgid "Tagged in:"
+msgstr ""
+
+#: themes/veen/amp/single.php:162 themes/veen/page.php:96
+#: themes/veen/single.php:171
+msgid "Show Comments"
+msgstr ""
+
+#: themes/veen/amp/single.php:162 themes/veen/page.php:96
+#: themes/veen/single.php:171
+msgid "Hide Comments"
+msgstr ""
+
+#: themes/veen/comments.php:19
+msgid "Avatar"
+msgstr ""
+
+#: themes/veen/comments.php:38
+msgid "on"
+msgstr ""
+
+#: themes/veen/comments.php:42
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: themes/veen/comments.php:59
+#, php-format
+msgid "One Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: themes/veen/comments.php:73
+msgid "Older Comments"
+msgstr ""
+
+#: themes/veen/comments.php:74
+msgid "Newer Comments"
+msgstr ""
+
+#: themes/veen/comments.php:81
+msgid "Comments are closed."
+msgstr ""
+
+#: themes/veen/comments.php:91
+msgid "Name"
+msgstr ""
+
+#: themes/veen/comments.php:98
+msgid "Comment"
+msgstr ""
+
+#: themes/veen/comments.php:99
+msgid "Log In"
+msgstr ""
+
+#: themes/veen/functions.php:119
+msgid "Header"
+msgstr ""
+
+#: themes/veen/functions/enqueue-scripts.php:90
+msgctxt "Josefin Sans font: on or off"
+msgid "on"
+msgstr ""
+
+#: themes/veen/functions/enqueue-scripts.php:96
+msgctxt "Nunito font: on or off"
+msgid "on"
+msgstr ""
+
+#: themes/veen/functions/post-formats.php:124
+#: themes/veen/partials/loops/classic-article.php:77
+msgid "Continue Reading"
+msgstr ""
+
+#: themes/veen/functions/sidebars.php:13
+msgid "Article Sidebar"
+msgstr ""
+
+#: themes/veen/functions/sidebars.php:15
+msgid "Right sidebar inside single posts."
+msgstr ""
+
+#: themes/veen/functions/sidebars.php:27
+msgid "Home Sidebar"
+msgstr ""
+
+#: themes/veen/functions/sidebars.php:29
+msgid "Sidebar for home, archives and results"
+msgstr ""
+
+#: themes/veen/functions/sidebars.php:39
+msgid "Footer"
+msgstr ""
+
+#: themes/veen/functions/sidebars.php:41
+msgid "Footer Sidebar"
+msgstr ""
+
+#: themes/veen/functions/theme-functions.php:184
+msgid "Page"
+msgstr ""
+
+#: themes/veen/functions/theme-functions.php:185
+msgid "of"
+msgstr ""
+
+#: themes/veen/functions/theme-functions.php:198
+msgctxt "admin"
+msgid "EP Article Thumb"
+msgstr ""
+
+#: themes/veen/functions/theme-functions.php:227
+msgid "Subscribe"
+msgstr ""
+
+#: themes/veen/page-templates/home.php:16
+msgid "You must add some module before publish this page"
+msgstr ""
+
+#: themes/veen/page.php:112 themes/veen/page.php:122 themes/veen/single.php:185
+#: themes/veen/single.php:195
+msgid "Comments"
+msgstr ""
+
+#: themes/veen/page.php:115 themes/veen/single.php:188
+msgid "Please enable JavaScript to view the"
+msgstr ""
+
+#: themes/veen/page.php:115 themes/veen/single.php:188
+msgid "comments powered by Disqus."
+msgstr ""
+
+#: themes/veen/partials/author-box.php:25
+msgid "Articles"
+msgstr ""
+
+#: themes/veen/partials/author-box.php:35
+msgid "About the Author"
+msgstr ""
+
+#: themes/veen/partials/author-box.php:61
+msgid "View All Articles"
+msgstr ""
+
+#: themes/veen/partials/footer.php:24
+msgid "Subscribe to"
+msgstr ""
+
+#: themes/veen/partials/footer.php:29
+msgid "Get the latest posts delivered right to your email."
+msgstr ""
+
+#: themes/veen/partials/footer.php:38
+msgid "Enter your email address"
+msgstr ""
+
+#: themes/veen/partials/footer.php:40 themes/veen/searchform.php:3
+msgid "Submit"
+msgstr ""
+
+#: themes/veen/partials/home-blocks/classic-posts-sidebar.php:69
+#: themes/veen/partials/home-blocks/classic-posts.php:69
+#: themes/veen/partials/home-blocks/grid-posts.php:90
+#: themes/veen/partials/home-blocks/grid-sidebar.php:67
+msgid "We can't find any result for your search term."
+msgstr ""
+
+#: themes/veen/partials/home-blocks/posts-carousel.php:114
+#: themes/veen/partials/home-blocks/posts-slider.php:79
+#: themes/veen/partials/loops/grid-article.php:163
+#: themes/veen/partials/meta-info.php:22
+msgid "Author:"
+msgstr ""
+
+#: themes/veen/partials/loops/grid-article.php:174
+#: themes/veen/partials/meta-info-comments.php:21
+#: themes/veen/partials/meta-info.php:42
+msgid "Featured"
+msgstr ""
+
+#: themes/veen/partials/meta-info-comments.php:2
+#, php-format
+msgid "%1$s Comment"
+msgid_plural "%1$s Comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: themes/veen/partials/single/related-articles.php:14
+msgid "You might also like"
+msgstr ""
+
+#: themes/veen/partials/single/siblings-articles.php:8
+msgid "Other stories"
+msgstr ""
+
+#: themes/veen/partials/single/siblings-articles.php:28
+msgid "Next Story"
+msgstr ""
+
+#: themes/veen/partials/single/siblings-articles.php:51
+msgid "Previous Story"
+msgstr ""
+
+#: themes/veen/searchform.php:2
+msgid "Type to start your search..."
+msgstr ""

@@ -1,0 +1,118 @@
+@import "settings";
+@import "generic/functions";
+@import "base/editor";
+
+$editor-base-unit: 26px;
+
+.editor-writing-flow{
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+// Only on backend
+.editor-block-list__layout, .block-editor-block-list__layout{
+    @extend div.text;
+    font-family: $font-family;
+    color: $text-color;
+
+    // Elements spacing
+
+    h1, h2, h3, h4, h5, h6, p, ul, ol{
+        padding-top: 0;
+        margin-bottom: 0;
+    }
+
+    a:not([class]){
+        color: $main-color;
+        text-decoration: none;
+        strong{ color: $main-color; }
+    }
+
+    pre{
+        color: $text-color;
+    }
+    .wp-block-categories, .wp-block-archives{
+        li a{
+            color: $black !important;
+        }
+    }
+    
+    ul.block-editor-rich-text__editable li{
+        position: relative;
+        z-index: 1;
+        list-style: none;
+        padding-left: 25px;
+        &:before{
+            content: '';
+            position: absolute;
+            left: 0;
+            top: 14px;
+            width: 5px;
+            height: 5px;
+            background: $main-color;
+        }
+    }
+
+    .wp-block-cover{
+        p{
+            line-height: 1.25;
+        }
+        strong{
+            color: $white;
+        }
+    }
+
+    ul, ol{
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .wp-block-separator{
+        display: block;
+    }
+
+    .wp-block-rss{
+        list-style: none;
+        margin-left: 0;
+        padding-left: 0;
+        li{
+            list-style: none;
+        }
+    }
+
+    .alignwide{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    
+}
+
+.editor-styles-wrapper .editor-block-list__layout .wp-block-categories li a{
+    color: $black !important;
+}
+
+.editor-post-title__block {
+	margin-top: 0 !important;
+    max-width: $editor-width - 30px;
+    
+    .editor-post-title__input {
+        color: $black;
+        font-family: $title-font-family;
+        line-height: 1.6;
+        letter-spacing: 0.6px;
+        font-size: 38px;
+        font-weight: bold;        
+        line-height: 1.2;  
+        padding: 0;    
+    }
+	
+}
+
+.wp-block-freeform.block-library-rich-text__tinymce ul,
+.wp-block-freeform.block-library-rich-text__tinymce ol{
+    padding-left: 0;
+}
+.wp-block-freeform.block-library-rich-text__tinymce .aligncenter{
+    margin-left: auto;
+    margin-right: auto;
+}
